@@ -1,0 +1,10 @@
+__all__ = [
+    'HAND_CLASSIFIER_FILE',
+    'BIT_MASK_HAND_LEFT',
+    'BIT_MASK_HAND_RIGHT'
+]
+
+HAND_CLASSIFIER_FILE = 'models/Hand.Cascade.1.xml'
+
+BIT_MASK_HAND_LEFT = 0x1
+BIT_MASK_HAND_RIGHT = 0x2
